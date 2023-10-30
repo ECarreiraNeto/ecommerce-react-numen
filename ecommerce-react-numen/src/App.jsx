@@ -52,6 +52,7 @@ function App() {
             <Route path="/Monitores" element={<Monitores/>}/> 
             <Route path="/Perifericos" element={<Perifericos/>}/> 
             <Route path="/Sillas" element={<Sillas/>}/>
+            <Route path="/Notebooks" element={<Notebooks/>}/>
           </Routes>
        <Footer/>
       </Router>
