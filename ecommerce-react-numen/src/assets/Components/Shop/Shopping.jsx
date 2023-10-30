@@ -1,26 +1,21 @@
 import React, { useContext, useEffect } from 'react'
 import { CartContext } from '../../context/ShoppingContext';
-import Items from './ItemsCard';
 import { ProductsContext } from '../../context/ProductsContext';
+
+
 
 const Shopping = (id) => {
 
     
     const [cart,setCart]=useContext(CartContext);
     const [products,setProducts]= useContext(ProductsContext);
-
+    
     const quantity= cart.reduce((acc,current)=> {
     return acc + current.quantity;
     }, 0);
 
     const TotalPrice= cart.reduce((acc,current)=> acc + current.quantity * current.precio ,0)
 
-    const getQuantityByID= (id) => {
-        return cart.find((item)=> item.id===id)?. quantity || 0;
-      }
-    const quantityPerItem= getQuantityByID(id);
-
-    
 
   return (
     <div className='flex flex-col'>
@@ -30,8 +25,8 @@ const Shopping = (id) => {
                 <img className='w-20 ml-4 text-black' src={item.foto} alt={item.nombre} />
                 <h2 className='ml-4 text-black'>{item.nombre}</h2>
                 <h3 className='ml-4 text-black'>${item.precio}.000</h3>
+                <span className='ml-4 text-black'>Cantidad:{quantity}</span>
             </div>)}
-        
         </div>
       <div className='flex justify-center text-black'>Total: ${TotalPrice}.000,00</div>
     </div>

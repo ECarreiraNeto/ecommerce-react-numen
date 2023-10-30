@@ -299,35 +299,35 @@
                 "nombre": "Gigabyte GeForce RTX 3060 Gaming",
                 "datos": "OC 12G (REV2.0), 3 ventiladores WINDFORCE, 12GB 192-bit GDDR6, GV-N3060GAMING OC-12GD tarjeta de video",
                 "foto": "./src/assets/data/img/pla001.jpg",
-                "precio": 1300.000
+                "precio": "1.300"
             },
             {
                 "id": 43,
                 "nombre": "Sparkle Intel Arc A770 Titan",
                 "datos": "OC Edition, 16 GB GDDR6, ThermalSync, refrigeración rasgada, ventilador axial, placa trasera de metal, SA770T-16GOC",
                 "foto": "./src/assets/data/img/pla002.jpg",
-                "precio": 1000.000
+                "precio": "1.000"
             },
             {
                 "id": 44,
                 "nombre": "Gigabyte Tarjeta gráfica GeForce RTX 4060 AERO",
                 "datos": "OC 8G, 3 ventiladores WINDFORCE, 8 GB 128 bits GDDR6, tarjeta de video GV-N4060AERO OC-8GD",
                 "foto": "./src/assets/data/img/pla003.jpg",
-                "precio": 1000.000
+                "precio": "1.100"
             },
             {
                 "id": 45,
                 "nombre": "Gigabyte Tarjeta gráfica GeForce RTX 4060 Eagle",
                 "datos": "OC 8G, 3 ventiladores WINDFORCE, 8 GB 128 bits GDDR6, tarjeta de video GV-N4060EAGLE OC-8GD",
                 "foto": "./src/assets/data/img/pla004.jpg",
-                "precio": 1200.000
+                "precio": "1.200"
             },
             {
                 "id": 46,
                 "nombre": "Gigabyte Tarjeta gráfica GeForce RTX 4070 windforce",
                 "datos": "OC 12G, 3 ventiladores WINDFORCE, 12 GB 192 bits GDDR6X, tarjeta de video GV-N4070WF3OC-12GD",
                 "foto": "./src/assets/data/img/pla005.jpeg",
-                "precio": 1320.000
+                "precio": "1.320"
             },
             {
                 "id": 47,
@@ -382,7 +382,7 @@
                 "id": 54,
                 "nombre": "Intel Core i5-12600K",
                 "datos": "Procesador de Escritorio 10 (6P+4E) Núcleos de hasta 4.9 GHz Desbloqueado LGA1700 600 Series Chipset 125W",
-                "foto": "./src/assets/data/img/pro001.jpg",
+                "foto": "./src/assest/data/img/pro001.jpeg",
                 "precio": 300.000
             },
             {
@@ -419,6 +419,48 @@
                 "datos": "Procesador de escritorio desbloqueado de 12 núcleos, 24 hilos.",
                 "foto": "./src/assets/data/img/pro006.jpg",
                 "precio": 500.000
-            }  
+            },
+            {
+                "id": 60,
+                "nombre": "Acer Predator Triton 16",
+                "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
+                "foto": "./src/assets/data/img/Acer.webp",
+                "precio": "1.200"
+            }, 
+            {
+                "id": 61,
+                "nombre": "Asus ROG Zephyrus G14",
+                "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
+                "foto": "./src/assets/data/img/Asus.webp",
+                "precio": "1.750"
+            },
+            {
+                "id": 62,
+                "nombre": "Dell Inspiron 15.6",
+                "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
+                "foto": "./src/assets/data/img/Dell.webp",
+                "precio": 944.000
+            },
+            {
+                "id": 63,
+                "nombre": "Hp Victus 15-fa0031dx",
+                "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
+                "foto": "./src/assets/data/img/HP.webp",
+                "precio": "1.100"
+            },
+            {
+                "id": 64,
+                "nombre": "Lenovo Legion5 Pro",
+                "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
+                "foto": "./src/assets/data/img/Lenovo.webp",
+                "precio": "1.300"
+            },
+            {
+                "id": 65,
+                "nombre": "Msi Gf63 Thin",
+                "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
+                "foto": "./src/assets/data/img/MSI.webp",
+                "precio": "1.270"
+            }      
     ]
 }

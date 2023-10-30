@@ -48,11 +48,11 @@ const OffersList = ({id,nombre,precio,foto}) => {
  
 
   return (
-    <div className='items-center flex flex-col text-center border-2 justify-center  w-[240px] rounded-lg shadow-sm shadow-gray-600 '>
+    <div className='items-center ml-[4.375rem] sm:w-[15rem] sm:m-[35px] md:mr-[60px] flex flex-col text-center border-2 justify-center  w-[200px] rounded-lg shadow-sm shadow-gray-600 '>
                 <div className='justify-center object-contain rounded-t-lg '>
-                <img src={foto} alt={nombre} className='object-contain w-[240px] h-[200px]' />
+                <img src={foto} alt={nombre} className='object-contain w-[12.5rem] h-[12.5rem] sm:w-[15rem] sm:h-[15rem]' />
                 </div>
-                <div className='mt-5 bg-gray-800 w-[240px] rounded-b-lg h-auto p-1'>
+                <div className='mt-5 bg-gray-800 w-[12.5rem] rounded-b-lg h-auto p-1 sm:w-[15rem]'>
                     <h2 className='mb-5 text-white'>{nombre}</h2>
                     <h3 className='mb-5 text-white'>${precio}.000</h3>
                 </div>
